@@ -4,13 +4,13 @@ int main()
 {
     int n;
     cin >> n;
-    IF(n % 2 == 0)
+    if(n % 2 == 0)
     {
-        Cout << "Par";
+        cout << "Par";
     }
     else
     {
-        Cout << "Impar";
+        cout << "Impar";
     }
     return 0;
 }
