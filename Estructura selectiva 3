@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+
+    IF(N > 0)
+    {
+        Cout << "#";
+    }
+    else
+    {
+        Cout << "# -";
+    }
+    IF(N == 0)
+    {
+        Cout << "#0";
+    }
+    return 0;
+}
