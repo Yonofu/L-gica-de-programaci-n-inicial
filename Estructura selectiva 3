@@ -5,17 +5,17 @@ int main() {
     int N;
     cin >> N;
 
-    IF(N > 0)
+    if(N > 0)
     {
-        Cout << "#";
+        cout << "#";
     }
     else
     {
-        Cout << "# -";
+        cout << "# -";
     }
-    IF(N == 0)
+    if(N == 0)
     {
-        Cout << "#0";
+        cout << "#0";
     }
     return 0;
 }
